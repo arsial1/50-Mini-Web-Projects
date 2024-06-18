@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom CSS Checkbox</title>
+    <link rel="stylesheet" href="../css/custom-css-checkbox.css" />
+  </head>
+  <body>
+    <div class="checkbox-wrapper">
+      <!-- Input and label tags are always together, they help us to implement the checkbox hack, we can not customize input element, but we can customize label element however we want, we also use ::before and ::after pseudo classes to add multiples styles -->
+
+      <input type="checkbox" id="check" hidden />
+      <!-- Here we are using an id to keep track of checkbox status checked or unchecked, we can also use a class -->
+      <label for="check" class="checkmark"></label>
+    </div>
+  </body>
+</html>
